@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fuego Burger - Las mejores hamburguesas a la parrilla. ¡Ordena ahora!">
+    <title>Fuego Burger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <img src="imagenes/burgerlogo.gif" alt="Logo" class="logo-img"> 
+            <a href="index.html" class="logo">Fuego Burger <span class="fueguito">🔥</span></a> 
+            <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> <br>
+        <!--carrucel -->
+        <section class="carousel-section">
+            <h2 style="cursor:pointer;">Las mejores hamburguesas!</h2>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="slide">
+                        <img src="imagenes/hamburguesa_de_pavo.jpg" alt="Imagen 1">
+                    </div>
+                    <div class="slide">
+                        <img src="imagenes/hamburguesa_de_pollo.jpg" alt="Imagen 2">
+                    </div>
+                    <div class="slide">
+                        <img src="imagenes/hamburguesa_de_salmon.jpg" alt="Imagen 3">
+                    </div>
+                    <div class="slide">
+                        <img src="imagenes/hamburguesa_vegana.jpg" alt="Imagen 3">
+                    </div>
+                </div>
+                <div class="slide2-track">
+                    <div class="slide2">
+                        <img src="imagenes/hamburguesa_de_sushi.jpg" alt="Imagen 1">
+                    </div>
+                    <div class="slide2">
+                        <img src="imagenes/hamburguesa_bbq.jpg" alt="Imagen 2">
+                    </div>
+                    <div class="slide2">
+                        <img src="imagenes/hamburguesa_mexicana.jpg" alt="Imagen 3">
+                    </div>
+                    <div class="slide2">
+                        <img src="imagenes/hamburguesa_de_pollo.jpg" alt="Imagen 3">
+                    </div>
+                </div>
+            </div>
+            <p>En Fuego Burger, llevamos el sabor de la parrilla a otro nivel.</p>
+            <a href="carta.html" class="ordenacta">Ordena ahora</a>
+        </section>
+        <!--Secccion de nuestras especialidades-->
+        <section class="featured">
+            <h2>Nuestras Especialidades</h2>
+            <div class="grid1">
+                <article class="card">
+                    <img src="imagenes/hamburguesa_clasica.jpg" alt="Hamburguesa clásica">
+                    <h3>Hamburguesa Clásica</h3>
+                    <p>Carne de res jugosa con queso, lechuga y tomate.</p>
+                    <a href="carta.html" class="cta">Ver más</a>
+                </article>
+                <article class="card">
+                    <img src="imagenes/hamburguesa_bbq.jpg" alt="Hamburguesa BBQ">
+                    <h3>Hamburguesa BBQ</h3>
+                    <p>Barbacoa ahumada con queso cheddar y cebolla caramelizada.</p>
+                    <a href="carta.html" class="cta">Ver más</a>
+                </article>
+                <article class="card">
+                    <img src="imagenes/hamburguesa_de_salmon.jpg" alt="Hamburguesa de Salmon">
+                    <h3>Hamburguesa de Salmon</h3>
+                    <p>Hecha con mucho amor y un salmon al dente</p>
+                    <a href="carta.html" class="cta">Ver más</a>
+                </article>
+                <article class="card">
+                    <img src="imagenes/hamburguesa_de_pavo.jpg" alt="Hamburguesa de Pavo">
+                    <h3>Hamburguesa de Pavo</h3>
+                    <p>Pavo ahumada con queso cheddar y cebolla caramelizada.</p>
+                    <a href="carta.html" class="cta">Ver más</a>
+                </article>
+            </div>
+        </section>
+        <!--moSTRAR MAS-->
+        <section class="card2-container">
+            <article class="card2">
+                <img src="imagenes/hamburguesa_de_pavo.jpg" alt="Hamburguesa de Pavo">
+                <h3>Hamburguesa de Pavo</h3>
+                <p>Pavo ahumado con queso cheddar <br> y cebolla caramelizada.</p>
+                <!--MOSTRAR MAS-->
+                <a href="javascript:void(0);" class="cta2" id="show-more">Mostrar más</a>
+                <!--MOSTRAR MENOS-->
+                <a href="javascript:void(0);" class="cta2" id="show-less" style="display:none;">Mostrar menos</a> 
+            </article>
+        </section>
+    </main>
+    <!--Footer register-->
+        <section class="get-started-section">
+            <div class="get-started-content">
+                <h2>PROMOCION!!!</h2>
+                <p>Registrate y opten un cupon 🎫 de descuento, no dejes pasar esta <strong>Oportunidad</strong> hasta <strong style="color:rgb(255, 3, 3)">20%</strong> En bebidas y Bocados</p><br>
+                <a href="registro.html" class="bottom1">Registrar ahora</a>
+            </div>
+        </section>
+
+        <!-- Ícono de WhatsApp flotante -->
+        <a href="https://wa.me/51921876815" class="whatsapp_float" target="_blank">
+            <img src="imagenes/whatsapp.jpeg" alt="WhatsApp"
+                class="whatsapp-icon">
+        </a>
+
+        <!--Footer de la pagina principal-->
+        <footer class="footer-section">
+            <div class="footer-container">
+                <div class="footer-left">
+                    <h2 class="footer-logo">Fuego Burger</h2>
+                    <div class="footer-reviews">
+                        <h3>Reseñas de Clientes</h3>
+                        <div class="review">
+                            <p>⭐️⭐️⭐️⭐️⭐️ "Las mejores hamburguesas que he probado!"</p>
+                            <span>- Juan P.</span>
+                        </div>
+                        <div class="review">
+                            <p>⭐️⭐️⭐️⭐️⭐️ "Excelente servicio y ambiente"</p>
+                            <span>- María G.</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <div class="footer-column">
+                        <h3>Productos</h3>
+                        <ul>
+                            <li> <a href="carta.html" name="clasic_burger"> Hamburguesa Clásica</a></li>
+                            <li>Hamburguesa BBQ</li>
+                            <li>Hamburguesa Veggie</li>
+                            <li>Hamburguesa Pollo</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Compañía</h3>
+                        <ul>
+                            <li>Sobre Nosotros</li>
+                            <li>Equipo</li>
+                            <li>Blog</li>
+                            <li>Contacto</li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h3>Conéctate</h3>
+                        <ul class="social-links">
+                            <li><a href="https://web.facebook.com/innovasalud.aqp/?locale=es_LA&_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a></li><br>
+                            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                            <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom"> <!--Creado por job yauri leon-->
+                <p>&copy; 2002 – 2024 Fuego Burger · <a href="#">Privacidad</a> · <a href="#">Términos</a></p>
+            </div>
+        </footer>
+    <script src="scripts.js"></script>
+
+    <!--sacar mas listas-->
+    <script>
+        document.getElementById('show-more').addEventListener('click', function () {
+            const card2Container = document.querySelector('.card2-container');
+            const newCards = `
+            <article class="card2">
+                <img src="imagenes/hamburguesa_clasica.jpg" alt="Hamburguesa de Pollo">
+                <h3>Hamburguesa de Pollo</h3>
+                <p>Pollo a la parrilla con salsa barbacoa <br> y aguacate.</p>
+            </article>
+            <article class="card2">
+                <img src="imagenes/hamburguesa_de_pavo.jpg" alt="Hamburguesa Veggie">
+                <h3>Hamburguesa Veggie</h3>
+                <p>Hamburguesa vegetariana con  <br>queso feta y espinacas.</p>
+            </article>
+            <article class="card2">
+                <img src="imagenes/hamburguesa_de_salmon.jpg" alt="Hamburguesa Doble">
+                <h3>Hamburguesa Doble</h3>
+                <p>Carne doble con tocino, <br> queso y cebolla caramelizada.</p>
+            </article>
+            <article class="card2">
+                <img src="imagenes/hamburguesa_mexicana.jpg" alt="Hamburguesa con Tocino">
+                <h3>Hamburguesa con Tocino</h3>
+                <p>Carne de res con tocino crujiente <br> y queso suizo.</p>
+            </article>
+        `;
+            card2Container.insertAdjacentHTML('beforeend', newCards);
+
+            document.getElementById('show-less').style.display = 'inline-block';
+        });
+
+        document.getElementById('show-less').addEventListener('click', function () {
+            const card2Container = document.querySelector('.card2-container');
+            const cards = card2Container.querySelectorAll('.card2');
+
+            if (cards.length > 1) {  
+                for (let i = cards.length - 1; i > cards.length - 5 && i > 0; i--) {
+                    cards[i].remove();
+                }
+            }
+            if (cards.length <= 5) {
+                this.style.display = 'none';
+            }
+        });
+    </script>
+    
+</body>
+</html>

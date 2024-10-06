@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explora la carta de Fuego Burger.">
+    <title>Carta - Fuego Burger</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header id="header">
+        <nav>
+            <img src="imagenes/burgerlogo.gif" alt="Logo" class="logo-img"> 
+            <a href="index.html" class="logo">Fuego Burger <span class="fueguito">🔥</span></a> 
+            <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="carta.html">Carta</a></li>
+                <li><a href="menu.html">Menú</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header> <br>
+
+    <main>
+        <section class="our-menu">
+            <h2 style="cursor:pointer">Descubre Nuestro Menú</h2>
+            <p>Elige entre nuestras jugosas hamburguesas y deliciosos acompañamientos, preparados con ingredientes frescos y de alta calidad.</p>
+        
+            <!-- menuu-->
+            <div class="menu-actions">
+                <a href="carta_descarga/Menu.pdf" download class="download-menu-btn">Descargar Menú en PDF</a>
+                <a href="pedido_online.html" class="order-online-btn">Hacer Pedido en Línea</a>
+            </div>
+        
+            <div class="menu-category">
+                <h3>Hamburguesas Clásicas</h3>
+                <div class="menu-item">
+                    <img src="imagenes/hamburguesa_clasica.jpg" alt="Hamburguesa Clásica" id="clasic_burger">
+                    <h4>Hamburguesa Clásica</h4>
+                    <p>Carne a la parrilla, lechuga fresca, tomate, cebolla y queso cheddar en un pan tostado.</p>
+                    <p><strong>S/.8.99</strong></p>
+                </div>
+                <div class="menu-item">
+                    <img src="imagenes/hamburguesa_bbq.jpg" alt="Hamburguesa BBQ">
+                    <h4>Hamburguesa BBQ</h4>
+                    <p>Carne de res con salsa BBQ, tocino crujiente, queso cheddar y cebolla caramelizada.</p>
+                    <p><strong>S/.10.99</strong></p>
+                </div>
+            </div>
+        
+            <div class="menu-category">
+                <h3>Acompañamientos</h3>
+                <div class="menu-item">
+                    <img src="imagenes/papas_fritas.jpg" alt="Papas Fritas">
+                    <h4>Papas Fritas</h4>
+                    <p>Porción de papas fritas crujientes.</p>
+                    <p><strong>S/.3.99</strong></p>
+                </div>
+                <div class="menu-item">
+                    <img src="imagenes/aros_de_cebolla.jpg" alt="Aros de Cebolla">
+                    <h4>Aros de Cebolla</h4>
+                    <p>Aros de cebolla dorados y crujientes.</p>
+                    <p><strong>S/.4.50</strong></p>
+                </div>
+            </div>
+        
+            <div class="menu-category">
+                <h3>Bebidas</h3>
+                <div class="menu-item">
+                    <img src="imagenes/refrescos_img.jpg" alt="Refresco">
+                    <h4>Refresco</h4>
+                    <p>Tu bebida favorita en su presentación clásica.</p>
+                    <p><strong>S/.5.50</strong></p>
+                </div>
+                <div class="menu-item">
+                    <img src="imagenes/donas_img.jpg" alt="Dona" >
+                    <h4>Bocaditos</h4>
+                    <p>Tu dona favorita sabor chocolate.</p>
+                    <p><strong>S/.3.50</strong></p>
+                </div>
+            </div>
+        </section>        
+    </main>
+    <!-- Ícono de WhatsApp flotante -->
+    <a href="https://wa.me/51921876815" class="whatsapp_float" target="_blank">
+        <img src="imagenes/whatsapp.jpeg" alt="WhatsApp"
+            class="whatsapp-icon">
+    </a>
+
+    <!--Footer de la pagina-->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2 class="footer-logo">Fuego Burger</h2>
+                <div class="footer-reviews">
+                    <h3>Reseñas de Clientes</h3>
+                    <div class="review">
+                        <p>⭐️⭐️⭐️⭐️⭐️ "Las mejores hamburguesas que he probado!"</p>
+                        <span>- Juan P.</span>
+                    </div>
+                    <div class="review">
+                        <p>⭐️⭐️⭐️⭐️⭐️ "Excelente servicio y ambiente"</p>
+                        <span>- María G.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-right">
+                <div class="footer-column">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li> <a href="carta.html" name="clasic_burger"> Hamburguesa Clásica</a></li>
+                        <li>Hamburguesa BBQ</li>
+                        <li>Hamburguesa Veggie</li>
+                        <li>Hamburguesa Pollo</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Compañía</h3>
+                    <ul>
+                        <li>Sobre Nosotros</li>
+                        <li>Equipo</li>
+                        <li>Blog</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Conéctate</h3>
+                    <ul class="social-links">
+                        <li><a href="https://web.facebook.com/innovasalud.aqp/?locale=es_LA&_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a></li><br>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2002 – 2024 Fuego Burger · <a href="#">Privacidad</a> · <a href="#">Términos</a></p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
