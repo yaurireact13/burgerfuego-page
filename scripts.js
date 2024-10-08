@@ -1,3 +1,4 @@
+//contenido de la nav-menu, burguesita
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Website loaded successfully!");
 });
@@ -41,6 +42,3 @@ document.getElementById('burger-choice').addEventListener('change', function() {
         burgerImage.style.display = 'none'; 
     }
 });
-
-
-

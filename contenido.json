@@ -1,0 +1,18 @@
+{
+    "creator": {
+      "name": "Yauri Leon Job",
+      "website": "Burger Fuego"
+    },
+    "website_info": {
+      "description": "Una página dedicada a las mejores hamburguesas.",
+      "categories": [
+        "Hamburguesas de Pollo",
+        "Hamburguesas de Pavo",
+        "Hamburguesas de Salmon",
+        "Hamburguesas de Sushi"
+      ],
+      "message": "No olvides, colocar alguna referencia si tomas el codigo",
+      "all_rights_reserved": true
+    }
+  }
+  
