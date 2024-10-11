@@ -404,7 +404,7 @@ nav ul li a:hover {
 
 /* Carrusel */
 .slider {
-    width: 60%; /* Ajusta el ancho del carrusel */
+    width: 60%; 
     margin: 0 auto; 
     overflow: hidden;
     border-radius: 10px;
@@ -636,13 +636,16 @@ nav ul li a:hover {
 }
 .footer-logo{
     font-size: 32px;
+    font-family: "Rubik Wet Paint", system-ui;
     margin-bottom: 20px;
+    font-weight: lighter;
     color: #ffdd57;
     text-align: center;
     cursor: pointer;
 }
 .footer-logo:hover{
     font-size: 32px;
+    font-weight: lighter;
     margin-bottom: 20px;
     color: #ffdd10;
     text-align: center;
