@@ -1,4 +1,13 @@
 /*estilo del cuerpo y demas */
+@font-face {
+    font-family: 'Firestarter';
+    src: url('fonts/Firestarter.woff2') format('woff2'),
+         url('fonts/Firestarter.woff') format('woff'),
+         url('fonts/Firestarter.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -29,10 +38,20 @@ body {
 }
 .logo {
     font-size: 24px;
-    font-weight: bold;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: lighter;
     color: white;
     text-decoration: none;
     margin-left: 10px;
+}
+.logo:hover {
+    font-size: 24px;
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: lighter;
+    color: rgb(253, 87, 10);
+    text-decoration: none;
+    margin-left: 10px;
+    transition: color 0.3s ease;
 }
 
 .logo-img {
@@ -379,7 +398,7 @@ nav ul li a:hover {
 
 .carousel-section h2 {
     margin-bottom: 20px;
-    font-size: 36px;
+    font-size: 30px;
     color: #ff4500;
 }
 
