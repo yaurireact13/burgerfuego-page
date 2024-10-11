@@ -498,6 +498,28 @@ nav ul li a:hover {
 }
 
 /*Registrate parte del footer*/
+
+.nombre_registro_dos{
+    width: 95%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+.correo_registro_dos{
+    width: 95%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+.telefono_registro_dos{
+    width: 95%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s;
+}
 .get-started-section {
     background-color: #f0f0f0;
     padding: 20px;
@@ -587,32 +609,116 @@ nav ul li a:hover {
     }
 }
 
-
 /* Footer Section */
-.footer-reviews {
-    background-color: #f8f8f8; /* Fondo claro para resaltar las reseñas */
-    padding: 20px;
-    border-radius: 10px; /* Bordes redondeados */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-    max-width: 400px; /* Ancho máximo para mantener la legibilidad */
-    margin: 20px auto; /* Centrar el bloque en el contenedor */
+.footer-section {
+    background-color: #1f1f1f;
+    color: white;
+    padding: 40px 0;
 }
+.footer-logo{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffdd57;
+    text-align: center;
+    cursor: pointer;
+}
+.footer-logo:hover{
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #ffdd10;
+    text-align: center;
+    cursor: pointer;
+}
+/* Estilo del formulario de suscripción */
+.footer-subscribe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-subscribe p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-form input {
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 250px;
+}
+
+.subscribe-form button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ffdd57;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.subscribe-form button:hover {
+    background-color: #ffdd10;
+}
+
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: left;
+    gap: 50px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-right {
+    width: 40%;
+}
+.footer-h2{
+    color: #333;
+    text-align: center;
+}
+
+.footer-reviews {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
 .footer-reviews h3 {
     font-size: 22px;
     color: #333;
     margin-bottom: 15px;
-    text-align: center;
 }
+
 .footer-reviews .review {
     margin-bottom: 15px;
     padding-bottom: 10px;
-    border-bottom: 1px solid #ddd; /* Línea divisoria entre reseñas */
+    border-bottom: 1px solid #ddd;
 }
 
 .footer-reviews .review p {
     font-size: 16px;
     color: #555;
-    font-style: italic; /* Texto en cursiva para estilo de cita */
+    font-style: italic;
 }
 
 .footer-reviews .review span {
@@ -620,63 +726,72 @@ nav ul li a:hover {
     margin-top: 5px;
     font-size: 14px;
     color: #888;
-    text-align: right; /* Alineación del nombre del cliente a la derecha */
+    text-align: right;
 }
 
-@media (max-width: 768px) {
-    .footer-reviews {
-        max-width: 100%; /* Ocupa el ancho completo en pantallas pequeñas */
-        padding: 15px;
-    }
-
-    .footer-reviews h3 {
-        font-size: 20px;
-    }
-
-    .footer-reviews .review p {
-        font-size: 15px;
-    }
-
-    .footer-reviews .review span {
-        font-size: 13px;
-    }
+.review-form {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.footer-section {
-    background-color: #1f1f1f; 
-    padding: 60px 40px; 
-    color: #ffffff; 
+.review-form h3 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 15px;
 }
 
-.footer-container {
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    flex-direction: column; 
-    text-align: center; 
-    gap: 40px; 
+.nombre_footer{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.resena_footer{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
 }
 
-.footer-left {
-    width: 40%;
+.review-form button {
+    background-color: #ffdd57;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.footer-logo {
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: #ffdd57; 
+.review-form button:hover {
+    background-color: #f4c542;
 }
 
-.footer-right {
+/* Contenido adicional debajo */
+.additional-content {
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    gap: 30px;
+    max-width: 800px;
+    margin: 40px auto; /* Centramos el contenido */
+}
+
+.footer-column {
+    text-align: center;
+    width: 30%; 
 }
 
 .footer-column h3 {
     font-size: 20px;
     margin-bottom: 20px;
-    color: #ffdd57; 
+    color: #ffdd57;
 }
 
 .footer-column ul {
@@ -686,8 +801,7 @@ nav ul li a:hover {
 
 .footer-column ul li {
     margin-bottom: 15px;
-    color: #cccccc; 
-    cursor: pointer;
+    color: #cccccc;
 }
 
 .footer-column ul li a {
@@ -697,10 +811,15 @@ nav ul li a:hover {
 }
 
 .footer-column ul li a:hover {
-    color: #ffdd57; 
+    color: #ffdd57;
 }
 
 /* Redes sociales */
+.social-links {
+    padding: 0;
+    margin: 0;
+}
+
 .social-links li {
     display: inline-block;
     margin-right: 15px;
@@ -716,6 +835,7 @@ nav ul li a:hover {
     color: #ffdd57;
 }
 
+/* Parte inferior */
 .footer-bottom {
     text-align: center;
     padding-top: 20px;
@@ -736,7 +856,8 @@ nav ul li a:hover {
 
 @media (max-width: 768px) {
     .footer-left,
-    .footer-right {
+    .footer-right,
+    .additional-content {
         width: 100%;
     }
 
@@ -744,7 +865,13 @@ nav ul li a:hover {
         flex-direction: column;
         gap: 20px;
     }
+
+    .footer-column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
+
 
 /*Contenido del contacto*/
 .contact-form {
@@ -774,11 +901,37 @@ label {
     color: #333; 
 }
 
-
-input[type="text"],
-input[type="email"],
-textarea {
-    width: 100%; 
+/*separamos uno por uno el input*/
+.nombre_uno{
+    width: 95%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+.email_uno{
+    width: 95%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+.textarea_uno {
+    width: 95%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+.direccion_uno{
+    width: 95%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    transition: border-color 0.3s; 
+}
+#phone{
+    width: 95%; 
     padding: 12px; 
     border: 1px solid #ccc; 
     border-radius: 5px; 
@@ -792,7 +945,7 @@ textarea:focus {
     outline: none; 
 }
 
-textarea {
+#message {
     height: 100px; 
     resize: none; 
 }

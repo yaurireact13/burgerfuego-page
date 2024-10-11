@@ -86,12 +86,6 @@
                     <p>Hecha con mucho amor y un salmon al dente</p>
                     <a href="carta.html" class="cta">Ver más</a>
                 </article>
-                <article class="card">
-                    <img src="imagenes/hamburguesa_de_pavo.jpg" alt="Hamburguesa de Pavo">
-                    <h3>Hamburguesa de Pavo</h3>
-                    <p>Pavo ahumada con queso cheddar y cebolla caramelizada.</p>
-                    <a href="carta.html" class="cta">Ver más</a>
-                </article>
             </div>
         </section>
         <!--moSTRAR MAS-->
@@ -124,56 +118,74 @@
 
         <!--Footer de la pagina principal-->
         <footer class="footer-section">
+            <!-- Contenedor principal del footer -->
             <div class="footer-container">
+                <!-- Parte izquierda: logo y reseñas -->
                 <div class="footer-left">
-                    <h2 class="footer-logo">Fuego Burger</h2>
                     <div class="footer-reviews">
                         <h3>Reseñas de Clientes</h3>
                         <div class="review">
                             <p>⭐️⭐️⭐️⭐️⭐️ "Las mejores hamburguesas que he probado!"</p>
-                            <span>- Juan P.</span>
+                            <span>- Cristian Yauri</span>
                         </div>
                         <div class="review">
-                            <p>⭐️⭐️⭐️⭐️⭐️ "Excelente servicio y ambiente"</p>
-                            <span>- María G.</span>
+                            <p>⭐️⭐️⭐️⭐️⭐️ "Excelente servicio, me encantó!"</p>
+                            <span>- Juan Leon</span>
                         </div>
                     </div>
                 </div>
+        
+                <!-- Parte derecha: formulario de reseñas -->
                 <div class="footer-right">
-                    <div class="footer-column">
-                        <h3>Productos</h3>
-                        <ul>
-                            <li> <a href="carta.html" name="clasic_burger"> Hamburguesa Clásica</a></li>
-                            <li>Hamburguesa BBQ</li>
-                            <li>Hamburguesa Veggie</li>
-                            <li>Hamburguesa Pollo</li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h3>Compañía</h3>
-                        <ul>
-                            <li>Sobre Nosotros</li>
-                            <li>Equipo</li>
-                            <li>Blog</li>
-                            <li>Contacto</li>
-                        </ul>
-                    </div>
-                    <div class="footer-column">
-                        <h3>Conéctate</h3>
-                        <ul class="social-links">
-                            <li><a href="https://web.facebook.com/innovasalud.aqp/?locale=es_LA&_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a></li><br>
-                            <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
-                            <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
-                            <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
-                        </ul>
+                    <div class="review-form">
+                        <h3>Dejanos tu reseña</h3>
+                        <form id="review-form">
+                            <input type="text" class="nombre_footer" id="names" placeholder="Tu nombre" required>
+                            <textarea class="resena_footer" id="review" placeholder="Escribe tu reseña" required></textarea>
+                            <button type="submit" id="enviar_resena">Enviar Reseña</button>
+                        </form>
                     </div>
                 </div>
             </div>
-            <div class="footer-bottom"> <!--Creado por job yauri leon-->
+        
+            <!-- Contenido adicional: Productos, Compañía, Conéctate -->
+            <div class="footer-container additional-content">
+                <div class="footer-column">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li><a href="carta.html" name="clasic_burger">Hamburguesa Clásica</a></li>
+                        <li><a href="carta.html" name="bbq_burger">Hamburguesa BBQ </a></li>
+                        <li><a href="carta.html" name="vegana_burger">Hamburguesa Vegana </a></li>
+                        <li><a href="carta.html" name="pollo_burger">Hamburguesa Pollo </a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Compañía</h3>
+                    <ul>
+                        <li>Sobre Nosotros</li>
+                        <li>Equipo</li>
+                        <li>Blog</li>
+                        <li>Contacto</li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Conéctate</h3>
+                    <ul class="social-links">
+                        <li><a href="https://web.facebook.com/innovasalud.aqp/?locale=es_LA&_rdc=1&_rdr"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="https://www.twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li><a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        
+            <!-- Parte inferior del footer -->
+            <div class="footer-bottom">
                 <p>&copy; 2002 – 2024 Fuego Burger · <a href="#">Privacidad</a> · <a href="#">Términos</a></p>
             </div>
         </footer>
     <script src="scripts.js"></script>
+    <script src="main.js"></script>
 
     <!--sacar mas listas-->
     <script>
